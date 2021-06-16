@@ -67,7 +67,7 @@ sub circles(x as integer,y as integer,r as integer,img as integer)
 end sub 
 
 sub text(x as integer, y as integer, w as integer,h as integer,size as integer,txt as string,img as integer)
-	print #img,"<text stroke=""black"" fill=""black"" font=""monospace""";
+	print #img,"<text stroke=""black"" fill=""none"" font=""monospace""";
 	print #img," x=""";
 	print #img,trim(str(x));
 	print #img,""" y=""";
